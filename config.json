@@ -1,0 +1,10 @@
+{
+    "env_dev": {
+        "api_url": "https://todos.venturedevs.net/api",
+        "title_max_length": 30
+    },
+    "env_production": {
+        "api_url": "https://todos.venturedevs.net/api",
+        "title_max_length": 30
+    }
+}

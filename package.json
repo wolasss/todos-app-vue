@@ -1,0 +1,42 @@
+{
+  "name": "todolist-vuejs",
+  "version": "1.0.0",
+  "description": "Simple to do list written in vue js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "webpack",
+    "test": "chimp --path=test/e2e",
+    "test:watch": "chimp --path=test/e2e --watch"
+  },
+  "author": "Adam Wolski",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "bulma-loader": "^1.0.1",
+    "chimp": "^0.50.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "inline-environment-variables-webpack-plugin": "^1.2.1",
+    "node-sass": "^4.5.3",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "bulma": "^0.5.3",
+    "vue": "^2.4.4",
+    "vue-bulma-progress-bar": "^1.0.2",
+    "vue-resource": "^1.3.4",
+    "vue-router": "^2.7.0"
+  }
+}
