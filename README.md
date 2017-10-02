@@ -16,4 +16,4 @@ or
 
 or 
 
-`npm run test` --> run e2e tests using chimp
+`npm run test` --> run e2e tests using chimp (the app must be running separately)
